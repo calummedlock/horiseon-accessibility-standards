@@ -2,15 +2,15 @@
 
 ## Description
 
-The marketing agency wanted a codebase that follows accessibility standards to optimize their own site for search engines.
+The marketing agency, Horiseon, wanted a codebase that follows accessibility standards to optimise their own site for search engines.
 
 I modified the existing webpage to not only follow SEO best practices but also to make it accessible to disabled users.
 
 ### Design Changes
 
-Initially, the agency wanted to retain the same website design and only improve the code.
+Initially, Horiseon wanted to retain the same website design and only improve the code.
 
-However, after reviewing the website and considering the agency's requirements, I noticed that the color contrast was not sufficient in the Benefits sidebar, which would not make the website fully accessible as it would fail to meet WCAG 2.1 requirements.
+However, after reviewing the website and considering Horiseon's requirements, I noticed that the color contrast was not sufficient in the Benefits sidebar, which would not make the website fully accessible as it would fail to meet WCAG 2.1 requirements.
 
 Therefore, I changed the background color to white and the text to black.
 
