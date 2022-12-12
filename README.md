@@ -1,1 +1,0 @@
-# horiseon-accessibility-standards
