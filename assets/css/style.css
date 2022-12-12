@@ -113,7 +113,7 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Benefits Column – There were repetitions in the code, so I cleaned it up. */
+/* Benefits Column – There were repetitions in the code, so I cleaned it up. To improve color contrast accessibility, I made a design change to ensure that users are able to read the text against the background and I also improved the color palette consistency. */
 
 .benefits {
     margin-right: 20px;
