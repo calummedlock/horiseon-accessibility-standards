@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- I changed the title to improve SEO to help with the site's relevant keywords and added in required meta tags -->
+    <!-- I changed the title to improve SEO to help with the site's relevant keywords and added in required meta tags. -->
     <title>Horiseon - Search Engine Optimization, Online Reputation Management, and Social Media Marketing</title>
     <meta name="description"
         content="Learn about the importance of Search Engine Optimization, Online Reputation Management, and Social Media Marketing for businesses looking to increase their online presence and reach potential customers.">
@@ -11,12 +11,13 @@
     <meta name="author" content="Horiseon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- ACTION NEEDED: Compare it with the original file then add comments -->
 </head>
 
 <body>
+    <!--I modified elements so that they are now semantic elements to improve accessibility and navigation. Headers identify the page introduction or navigation and facilitate page semantics and navigation.-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- The nav element is used to identify a section of navigation links. -->
         <nav>
             <ul>
                 <li>
@@ -31,10 +32,13 @@
             </ul>
         </nav>
     </header>
+    <!-- Changed the container to <main> as that's where the main content is displayed. -->
     <main>
         <div class="hero">
         </div>
+        <!-- It's not the best practice to keep everything in <div> so I changed below to the correct semantic elements. -->
         <section class="content">
+            <!-- I updated the heading structure for better organisation so that screen reader users are able to find relevant information. I also kept the Benefits section separate in a different H2 heading. -->
             <h2 class="hidden">Services</h2>
             <section id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
@@ -69,6 +73,7 @@
                 </p>
             </section>
         </section>
+        <!-- An aside is typically presented in a sidebar so given that it's complementary to the main section, I've chosen <aside> for this element. I also changed the background to white for better colour contrast, an explanation can be found in style.css -->
         <aside class="benefits">
             <h2 class="hidden">Benefits</h2>
             <section class="benefit-lead">
@@ -101,6 +106,7 @@
         </aside>
     </main>
     <footer>
+        <!-- I removed the emoji as the screen reader may read it aloud as "Made with Red Heart by Horiseon" which does not make sense and will confuse screen reader users. -->
         <h2>Made with Love by Horiseon</h2>
         <p>
             &copy; 2019 &ndash;
