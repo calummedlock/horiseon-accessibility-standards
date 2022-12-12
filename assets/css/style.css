@@ -1,6 +1,6 @@
 /* CSS Setup */
 
-/* I added structural elements within HTML so users could access them and have better navigation. I then encountered a major bug with the CSS as the stylesheet wasn't applying correctly to the HTML file before realizing I changed these div's to header, nav, section, aside, and footer so I updated the CSS code to match up with them. */
+/* I added structural elements within HTML so users could access them and have better navigation. I then encountered a major bug with the CSS as the stylesheet wasn't applying correctly to the HTML file before realizing I changed these div's to header, nav, section, aside, and footer so I updated the CSS code to follow the semantic structure. */
 
 * {
     box-sizing: border-box;
@@ -33,7 +33,7 @@ p {
     margin-left: 25px;
 }
 
-/* Hidden Selector – Screen readers needed structure in the headings but without changing the sections too much, I've set H2 visibility to hidden but they're still accessible to screen readers */
+/* Hidden Selector – Screen readers needed structure in the headings but without changing the sections too much, I've set H2 visibility to hidden but they're still accessible to screen readers. */
 
 .hidden {
     visibility: hidden;
@@ -87,7 +87,7 @@ header nav ul li {
     background-position: center;
 }
 
-/* Services Column – There were repetitions in the code, so I cleaned it up. */
+/* Services Column – I consolidated and organised CSS selectors and properties to follow semantic structure. */
 
 .content {
     width: 75%;
@@ -113,7 +113,7 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Benefits Column – There were repetitions in the code, so I cleaned it up. To improve color contrast accessibility, I made a design change to ensure that users are able to read the text against the background and I also improved the color palette consistency. */
+/* Benefits Column – I consolidated and organised CSS selectors and properties to follow semantic structure. To improve color contrast accessibility, I made a design change to ensure that users are able to read the text against the background and I also improved the color palette consistency. */
 
 .benefits {
     margin-right: 20px;
