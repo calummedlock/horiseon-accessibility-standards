@@ -5,13 +5,13 @@
 /* CHANGES: I added structural elements within HTML so users could access them and have better navigation. I then encountered a major bug with the CSS as the stylesheet wasn't applying correctly to the HTML file before realizing I changed these div's to header, nav, section, aside, and footer so I updated the CSS code to follow the semantic structure. */
 
 * {
-    box-sizing: border-box; /* to make the padding/margins behave consistently */
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: #d9dcd6; /* sets the background colour of the whole webpage */
+    background-color: #d9dcd6;
 }
 
 a {
@@ -38,10 +38,10 @@ p {
 }
 
 /******************************/
-/* Hidden Selector */
+/* NEW: Hidden Selector */
 /******************************/
 
-/* ADDITION: Screen readers needed structure in the headings but without changing the sections too much, I've set H2 visibility to hidden but they're still accessible to screen readers. */
+/* Screen readers needed structure in the headings but without changing the sections too much, I've set H2 visibility to hidden but they're still accessible to screen readers. */
 
 .hidden {
     visibility: hidden;
