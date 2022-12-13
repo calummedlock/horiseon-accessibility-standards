@@ -14,6 +14,17 @@ However, after reviewing the website and considering Horiseon's requirements, I 
 
 Therefore, I changed the background color to white and the text to black.
 
+### Coding changes
+
+- Added HTML semantic elements to improve the structure and meaning of the content.
+- Consolidated CSS selectors to make the code more efficient and easier to maintain.
+- Ensured proper headings structure to improve the hierarchy and organization of the content.
+- Added comments to the CSS elements to make it easier for future developers to understand the code.
+- Changed the title and meta description for better SEO.
+- Removed emoji to improve accessibility for screen reader users.
+- Added a line of script code to ensure that the copyright text uses the current year.
+- Added a hidden selector to present proper heading structures to screen reader users without changing the website design too much.
+
 ## Installation
 
 N/A
@@ -21,6 +32,8 @@ N/A
 ## Usage
 
 The Horiseon website provides information about the services they offer and the benefits their clients can gain. The website was recently updated to meet WCAG 2.1 standards for better SEO and accessibility. Users can use the website to learn about Horiseon's services and the benefits they offer.
+
+The comments can be viewed by accessing DevTools (`Ctrl+Shift+I` on Windows and Linux, `Command+Option+I` on macOS).
 
 [Visit the website](https://calummedlock.github.io/horiseon-accessibility-standards/)
 
