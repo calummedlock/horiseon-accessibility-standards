@@ -18,7 +18,7 @@ Therefore, I changed the background color to white and the text to black.
 
 - Added HTML semantic elements to improve the structure and meaning of the content.
 - Consolidated CSS selectors to make the code more efficient and easier to maintain.
-- Ensured proper headings structure to improve the hierarchy and organization of the content.
+- Ensured proper headings structure to improve the hierarchy and organisation of the content.
 - Added comments to the CSS elements to make it easier for future developers to understand the code.
 - Changed the title and meta description for better SEO.
 - Removed emoji to improve accessibility for screen reader users.
