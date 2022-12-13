@@ -24,6 +24,7 @@ Therefore, I changed the background color to white and the text to black.
 - Removed emoji to improve accessibility for screen reader users.
 - Added a line of script code to ensure that the copyright text uses the current year.
 - Added a hidden selector to present proper heading structures to screen reader users without changing the website design too much.
+- Sized down and optimised images for better website loading, this will also help with SEO as search engines prefer fast-loading websites.
 
 ## Installation
 
